@@ -3,6 +3,12 @@
   margin: 0 auto;
 }
 
+body {
+    font-family: 'Times New Roman', georgia, serif;font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
 nav, a {
     text-align: center;
     text-decoration: none;
@@ -16,6 +22,10 @@ hi {
     text-align: center;
 }
 
+h2 {
+    margin: 0;
+}
+
 h4 {
     text-align: center;
     background-color: rgb(250, 249, 249);
@@ -26,8 +36,16 @@ h4 {
     text-align: center;
 }
 
-main, section {
+main section {
     text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.card-img {
+    border: 10px solid steelblue;
 }
 
 #background {
@@ -35,6 +53,9 @@ main, section {
     background-color: blueviolet;
     color: white;
 }
+nav a {
+    padding: 35px;
+}  
 
 nav a:hover {
     background-color: #3bb221;
@@ -42,9 +63,14 @@ nav a:hover {
 }
 
 .book {
+    font-family: "Arial Black" Tahoma sans-serif;
     background-color: white;
     color: red;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px; 
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -53,26 +79,55 @@ nav a:hover {
     color: white;
 }
 
+.home-title {
+    font-family: "Arial Black" Tahoma sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 .msg {
 
     background-color: orange;
-    color: darkgreen
+    color: darkgreen;
+    line-height: 1.5em;
 }
 
 .msg h2 {
     color: darkred;
 }
 
+.msg a {
+    font-family: "Arial Black" Tahoma sans-serif;
+    font-size: .8em;
+}
+
+.msg p {
+    padding-bottom: 15px;
+} 
+
 .logo {
     width: 80px;
+    border-radius: 50%;
+    border: 5px solid steelblue;
+    box-sizing: border-box;
+}
+
+#logo-link {
+    padding-top: 5px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
+}
+
+footer {
+    padding: 25px 50px;
+    padding-top: 15px;  
 }
 
 footer a {
@@ -85,10 +140,19 @@ footer a:hover {
     color: white; 
 }
 
+.social img  {
+    padding-top: 15px;
+}
+
 .join {
     background-color: yellow;
     color: black;
     text-decoration: none;
+    font-family: "Arial Black" Tahoma sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover {
